@@ -1,0 +1,141 @@
+/*
+ Theme Name:   ComicPress Child
+ Description:  A child theme from the Comicpress parent
+ Template:     ComicPress
+ Version:      1.0.0
+*/
+
+/* PAGE GENERAL */
+
+#page-wrap {
+  padding-top:0;
+}
+
+#content-wrapper {
+  padding-top:25px;
+}
+
+#comment-wrapper {
+  border-top: 1px solid #FFF;
+}
+
+/* HEADER */
+header {
+  height:150px;
+}
+
+/* MENU CONTAINER */
+#menubar-wrapper {
+  padding:10px;
+}
+
+/* BUTTONS */
+
+.wpcf7-submit {
+  background:#BA55D3 !important;
+  border: 1px solid #8B008B;
+  color:#FFF !important;
+  border-radius:6px;
+}
+
+.head_menu_button, .submit {
+  background:#BA55D3 !important;
+  border: 1px solid #8B008B;
+  color:#FFF !important;
+}
+
+.submit, .wpcf7-submit {
+  width:140px;
+  height:60px;
+  font-size:18px;
+}
+
+.head_menu_button:hover, .submit:hover, .wpcf7-submit:hover {
+  background:#D8BFD8;
+  color: #8B008B;
+}
+
+/* FORMS */
+
+.comment-form, .wpcf7 {
+  text-align:center;
+}
+
+/* Dropdowns */
+.chapter-select #chapter {
+  //border-radius:6px;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+  border-radius:6px;
+}
+
+
+/* IMAGES */
+
+.archive_act_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+
+/* PAGE/POST */
+.page-title, .post-title {
+  text-align:center;
+  font-size:28px;
+  padding-top:12px;
+  padding-bottom:12px;
+}
+
+/* ARCHIVE (SHORTCODE) PAGE */
+.comic-archive-series-description {
+  display:none;
+}
+
+.comic-archive-series-title {
+  padding: 25px 0 25px 0 !important;
+  border: 1px solid #FFF;
+  margin-bottom:10px;
+}
+
+/* COMIC PAGE */
+#comic-wrap {
+  padding-top:5px;
+  padding-left:35px;
+  padding-right:35px;
+}
+
+.comic-table {
+  -moz-box-shadow: 0px 0px 35px rgba(255,255,255,255);
+  -webkit-box-shadow: 0px 0px 35px rgba(255,255,255,255);
+  box-shadow: 0px 0px 35px rgba(255,255,255,255);
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.comic-table #comic {
+  margin:0px;
+  padding:0px;
+}
+
+/* POSTS */
+
+.blognav-container {
+  padding:10px;
+  background-color: #282828;
+}
+.blognav-next, .blognav-prev {
+  padding:5px;
+}
+.blognav-next:hover, .blognav-prev:hover {
+  color:#FFF;
+}
+
+/* FOOTER */
+footer {
+  min-height:200px;
+}
